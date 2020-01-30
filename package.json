@@ -1,0 +1,22 @@
+{
+  "name": "nexus-sample",
+  "version": "1.0.0",
+  "description": "This is small app for npm on Nexus",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaiYamask/nexus-sample.git"
+  },
+  "author": "DaiYamask",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaiYamask/nexus-sample/issues"
+  },
+  "homepage": "https://github.com/DaiYamask/nexus-sample#readme",
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/npm-private/"
+  }
+}
